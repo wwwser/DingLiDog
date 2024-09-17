@@ -1,0 +1,42 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "love.DingLi.injection.mixins",
+  "refmap": "mixins.DingLi.refmap.json",
+  "mixins": [
+    "MixinAbstractClientPlayer",
+    "MixinAnvilChunkLoader",
+    "MixinBitArray",
+    "MixinBlockStateContainer",
+    "MixinChunkProviderServer",
+    "MixinEntity",
+    "MixinEntityFireworkRocket",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinFMLHandshake",
+    "MixinFontRenderer",
+    "MixinGuiInGame",
+    "MixinGuiScreen",
+    "MixinItemStack",
+    "MixinItemTool",
+    "MixinMinecraft",
+    "MixinNBTTagLongArray",
+    "MixinNetworkManager",
+    "MixinStateImplementation"
+  ],
+  "client": [
+    "MixinChatTabCompleter",
+    "MixinChunkProviderClient",
+    "MixinChunkRenderContainer",
+    "MixinChunkRenderWorker",
+    "MixinEntityRenderer",
+    "MixinNetHandlerPlayClient",
+    "MixinPlayerControllerMP",
+    "MixinRenderChunk",
+    "MixinRenderList",
+    "MixinTabCompleter",
+    "MixinVboRenderList",
+    "MixinWorldClient"
+  ]
+}

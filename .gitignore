@@ -1,0 +1,7 @@
+# Default ignored files
+/DingLiDog.iws
+
+# Project exclude paths
+/.gradle/
+/build/
+/out/
